@@ -1,0 +1,166 @@
+/* Add the styles from styles.css and sms.jsp here */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color: blue;
+    font-family: "Georgia";
+    text-transform: uppercase;
+}
+
+.sign-in-text {
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container {
+    background-color: rgb(253, 188, 67);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="username"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: #f3deb8;
+    color: gray;
+    outline: none;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #00a3ff;
+}
+
+.signin-link {
+    text-align: right;
+    font-size: 10px;
+}
+
+.signin-link a {
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.link-button {
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.btn1 {
+    background-color: #f44336;
+}
+
+.btn2 {
+    background-color: #2196F3;
+}
+
+.btn3 {
+    background-color: #f44336;
+}
+
+.btn4 {
+    background-color: #FF9800;
+}
+
+.open-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.open-button:hover {
+    background-color: green;
+}
+
+.fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    margin: 5px 0;
+}
+
